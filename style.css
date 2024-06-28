@@ -2,14 +2,30 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Alice', serif;
 }
 
-body{
-    background-image: url(https://vonaoca.com.br/wp-content/uploads/2023/07/Brigadeiro-Caseiro1.jpg);
+p {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #291B1A;
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(10px);
-    height: 100vh;
+    color: #573A37;
+    height: 100%;
+    flex-direction: column;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #291B1A;
 }
 
 .container {
@@ -19,13 +35,92 @@ body{
     margin-top: 48px;
     background-color: #F0E8C2;
     border-radius: 24px;
+    padding: 24px;
+    gap: 24px;
 }
+/*ajuste de texto */
 
 .image-container {
     width: 100%;
-    padding: 24px;
- }
+}
+
 .imagem {
     width: 100%;
     border-radius: 16px;
+}
+
+/*ajuste da caixa Main*/
+
+/*Ajuste da caixa about */
+
+h1 {
+    font-size: 40px;
+    font-weight: Regular;
+    line-height: 140%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 0px 24px;
+    margin-top: 24px;
+}
+
+.info {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+/* Ajuste da caixa about */
+
+/* Ajuste da caixa ingredientes */
+
+h2 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.ingredientes-container {
+    padding: 0 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+ul {
+    list-style-position: inside;
+    font-family: "Alice", serif;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+/*Ajuste modo de preparo */
+
+.modo-de-preparo {
+padding: 0 24px 24px 24px;
+font-size: 16px;
+line-height: 150%;
+}
+
+/*Ajuste modo de preparo */
+  
+
+/*Footer*/
+
+footer img{ 
+    vertical-align: middle;
+}
+
+footer {
+  margin: 28px;
+  margin-bottom: 48px;
+  color: #F0E8C2;
 }
